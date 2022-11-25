@@ -18,5 +18,9 @@ public class DataTypes {
         char copyrightSymbol = '\u00A9';
 
         System.out.println("This is the copy right symbol: " + copyrightSymbol);
+        
+        double number1 = 5.8;
+        int number2 = (int)number1;
+        System.out.println(number2);
     }
 }
